@@ -205,7 +205,6 @@ Azure Redis Cache can cache .NET objects as well as primitive data types, but be
 One simple way to serialize objects is to use the `JsonConvert` serialization methods in [Newtonsoft.Json.NET](https://www.nuget.org/packages/Newtonsoft.Json/8.0.1-beta1) and serialize to and from JSON. The following example shows a get and set using an `Employee` object instance.
 
 
-	[Serializable]
 	class Employee
 	{
 	    public int Id { get; set; }
